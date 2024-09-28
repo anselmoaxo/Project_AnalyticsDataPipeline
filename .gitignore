@@ -1,0 +1,50 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+# Ignorar arquivos e diretórios de ambiente virtual
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de configuração do Airflow
+airflow.cfg
+airflow.db
+logs/
+tmp/
+__init__.py
+
+# Ignorar arquivos de dependências
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Ignorar arquivos de dados gerados
+data/
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# Ignorar arquivos de ambiente de desenvolvimento
+.env
+*.env
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar backups e arquivos temporários
+*~
+*.bak
+*.tmp
+
